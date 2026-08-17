@@ -1,0 +1,50 @@
+---
+title: "Homework X"
+author: "Your Name"
+output: word_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+# Global options for all code chunks
+knitr::opts_chunk$set(
+  echo = TRUE,       # Show code chunks in the final output
+  warning = FALSE,   # Hide code warnings
+  message = FALSE,   # Hide package messages
+  fig.width = 7,     # Default figure width
+  fig.height = 5,    # Default figure height
+  fig.align = "center" # Center figures
+)
+
+# Load required packages
+library(tidyverse)
+```
+
+# Question 1
+
+```{r}
+# Read in data:
+soap_data <- read.table("Data/soap.txt", header=TRUE)
+
+# Display first 5 lines of soap_data
+head(soap_data, 5)  
+```
+
+```{r}
+# !IMPORTANT Set categorical variables as factors
+# Convert numeric 'Soap' into a factor with descriptive labels.
+# This is important for ANOVA because R treats factors differently than numbers.
+soap_data$fSoap = factor(soap_data$Soap, levels=1:3, labels=c("Regular (1)", "Deodorant (2)", "Moisturing (3)"))
+
+# Check the first 5 rows again to see the new factor variable
+head(soap_data, 5)
+# Summarize data
+summary(soap_data)
+```
+
+# Question 2
+
+# Question 3
+
+# ...
+
