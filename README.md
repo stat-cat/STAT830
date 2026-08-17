@@ -90,19 +90,6 @@ For most examples, datasets are created directly within the R scripts using func
 
 Many topics include both **R** and **SAS** implementations.
 
-## Data Sources
-
-Example datasets used in this course are adapted from publicly available educational resources associated with:
-
-> Dean, A., Voss, D., & Draguljic, D.  
-> *Design and Analysis of Experiments*
-
-Data files and supporting materials are available at:
-
-https://corescholar.libraries.wright.edu/design_analysis/8/
-
-Where appropriate, module materials include citations to the original data source.
-
 ## Acknowledgments
 
 Some datasets and example analyses in this repository were adapted from materials accompanying:
