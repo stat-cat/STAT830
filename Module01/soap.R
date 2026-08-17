@@ -66,7 +66,7 @@ summary(model1)
 # Compute least-squares means for each soap type
 # lsmeans (least-squares means) gives adjusted group means.
 # This is useful for comparing means after ANOVA.
-# install.packages("lsmeans") # Uncomment to install if not already installed
+# install.packages("emmeans") # Uncomment to install if not already installed
 library(emmeans)
 
 lsmeans(model1, "fSoap")
