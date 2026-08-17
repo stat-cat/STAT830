@@ -1,8 +1,11 @@
 ---
 title: "Homework X"
 author: "Your Name"
-output: word_document
 date: "`r Sys.Date()`"
+output:
+  word_document:
+    df_print: kable
+
 ---
 
 ```{r setup, include=FALSE}
@@ -13,11 +16,13 @@ knitr::opts_chunk$set(
   message = FALSE,   # Hide package messages
   fig.width = 7,     # Default figure width
   fig.height = 5,    # Default figure height
-  fig.align = "center" # Center figures
+  fig.align = "center", # Center figures
+  df_print = "kable"
 )
 
 # Load required packages
 library(tidyverse)
+library(ggplot2)
 ```
 
 # Question 1
