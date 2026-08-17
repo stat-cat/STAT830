@@ -86,7 +86,7 @@ Each module folder may contain:
 
 ## Using the Materials
 
-For most examples, datasets are created directly within the R scripts using functions such as `tribble()` from the **tidyverse**. This approach allows students to focus on statistical concepts and analyses without spending class time importing data files.
+For most examples, datasets are created directly within the R scripts using functions such as `tribble()` from the **tidyverse**. This approach allows students to focus on statistical concepts and analyses without spending time importing data files.
 
 Many topics include both **R** and **SAS** implementations.
 
