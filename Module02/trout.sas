@@ -1,4 +1,4 @@
-* trout.sas, trout experiment, Table 5.10, p125;
+/* trout.sas, trout experiment, Table 5.10, p125 */
 
 /* Read in trout data */
 data trout;
@@ -82,12 +82,12 @@ proc sgplot data=diag;
   title "Residuals vs Treatment";
 run;
 
-/* Normal Q–Q of Residuals */
+/* Normal Qâ€“Q of Residuals */
 proc univariate data=diag noprint;
   var Resid;
   qqplot Resid / normal(mu=est sigma=est)
                  square
-                 odstitle="Normal Q–Q Plot of Studentized Residuals";
+                 odstitle="Normal Qâ€“Q Plot of Studentized Residuals";
 run;
 
 
