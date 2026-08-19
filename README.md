@@ -41,7 +41,7 @@ After creating a fork, you can download the repository to your computer using Gi
 git clone https://github.com/YOUR_USERNAME/STAT830.git
 ```
 
-Alternatively, you can use **GitHub Desktop** to clone the repository without using the command line.
+Alternatively, you can use [GitHub Desktop](https://desktop.github.com/download/) to clone the repository without using the command line.
 
 ### Keeping Your Fork Updated
 
