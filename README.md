@@ -1,4 +1,4 @@
-# STAT 830: Design and Analysis of Experiments
+# STAT 830: Experimental Design
 
 This repository contains lecture materials, R code, SAS code, example datasets, and supplemental resources for **STAT 830**.
 
