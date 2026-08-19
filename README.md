@@ -6,25 +6,19 @@ This repository contains lecture materials, R code, SAS code, example datasets, 
 
 Students should have access to:
 
-- R (version 4.0 or later recommended)
-- RStudio
-- SAS
-- Any required R packages listed within individual scripts
-
-Commonly used R packages include:
-
-```r
-library(tidyverse)
-library(emmeans)
-library(lme4)
-library(lmerTest)
-library(multcomp)
-library(car)
-```
+- R (version 4.0 or later recommended) and/or SAS
 
 ## Using GitHub (Optional)
 
 Students who have a GitHub account may wish to create their own copy of this repository. This allows you to save notes, make changes to code, experiment with analyses, and keep track of your work throughout the semester.
+
+### Create a GitHub Account 
+
+If you do not already have a GitHub account:
+1. Visit https://github.com/signup
+2. Enter your email address and create a username and password.
+3. Verify your email address and complete the account setup process.
+4. Sign in to your new GitHub account.
 
 ### Forking the Repository
 
@@ -33,15 +27,38 @@ Students who have a GitHub account may wish to create their own copy of this rep
 3. Select your GitHub account as the destination.
 4. GitHub will create a personal copy of the repository under your account.
 
+### Install and Sign in to GitHub Desktop
+
+For most students, **GitHub Desktop** is the easiest way to work with Git and GitHub without using the command line.
+
+1. Download [GitHub Desktop](https://desktop.github.com/)
+2. [Install GitHub Desktop](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
+3. [Authenticate to GitHub in GitHub Desktop](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github-in-github-desktop)
+
+### Clone Your Fork
+
+1. Open GitHub Desktop.
+2. Select **File → Clone Repository**.
+3. Choose your fork of the `STAT830` repository from the **GitHub.com** tab.
+4. Select a local folder and click **Clone**.
+
+### Command-Line Alternative
+
+Note: GitHub Desktop is recommended for users who are new to Git and GitHub. Students who are comfortable with Git may use the command line or any other Git client they prefer.
+
 ### Cloning Your Fork
 
-After creating a fork, you can download the repository to your computer using Git:
+After creating your fork, the easiest way to download the repository to your computer is with [GitHub Desktop](https://desktop.github.com/download/), which provides a graphical interface for working with Git and GitHub.
+After creating a fork, you can download the repository to your computer using GitHub Desktop:
+1. Open GitHub Desktop.
+2. Select **File → Clone Repository**.
+3. Choose your fork of the `STAT830` repository from the GitHub.com tab (or paste the URL of your fork).
+4. Select a local folder and click **Clone**.
 
-```bash
+Alternatively, you can use  to clone the repository without using the command line.
+```
 git clone https://github.com/YOUR_USERNAME/STAT830.git
 ```
-
-Alternatively, you can use [GitHub Desktop](https://desktop.github.com/download/) to clone the repository without using the command line.
 
 ### Keeping Your Fork Updated
 
